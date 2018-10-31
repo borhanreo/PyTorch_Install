@@ -146,3 +146,15 @@ type **no**
 **Active env**
     
     $ source activate pyTorch    
+
+# This topic only for NVIDA GPU user only    
+#### if cuda is installed with your conda ??
+    import torch
+    print(torch.version.cuda)    
+# Nvidia driver 
+open the **additional-drivers** app, search for it in the dash, or in **software and updates**
+select **NVIDIA binary driver**
+Run a command 
+    sudo apt install nvidia-cuda-toolkit
+    
+[Reference link](https://discuss.pytorch.org/t/pytorch-and-cuda-9-1/13126)  
