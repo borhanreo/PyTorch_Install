@@ -1,4 +1,4 @@
-# Install pytorch on Ubuntu Anaconda
+#Install pytorch on Ubuntu Anaconda
  I used Ubuntu 18.04
 # Step 1.1 Need to install anaconda 
 [Download Anaconda for ubuntu](https://www.anaconda.com/download/)
@@ -91,8 +91,47 @@ type **no**
 **Output**
 
     0.4.1 or latest 
-# Step 3 Install OpenCV    
+# Step 3.1 Install OpenCV    
     $ conda install -c conda-forge opencv 
     $ conda install -c conda-forge/label/broken opencv
+#### 3.2  Test OpenCV  
+    $ python3
+    import cv2
+    print(cv2.__version__) 
+**Output**
     
-
+    3.4.2    
+# Step 3.1 Install TensorFlow
+    $ conda install -c intel tensorflow
+    
+#### 3.2  Test TensorFlow
+    $ python3
+    import tensorflow
+    print(tensorflow.__version__) 
+**Output**
+    
+    1.10.0    
+    
+# Last step test full install (pytorch, OpenCV and tensorflow)
+    import torch
+    from __future__ import print_function
+    import cv2
+    import tensorflow
+    print("Torch version: ",torch.__version__)
+    print("OpenCV version",cv2.__version__)
+    print("TensorFlow version",tensorflow.__version__)
+    print(torch.rand(5,4))
+    torch.cuda.is_available()   
+**Output**
+    
+    Torch version:  0.4.1
+    OpenCV version 3.4.2
+    TensorFlow version 1.10.0
+    tensor([[0.2159, 0.6831, 0.0893, 0.7964],
+            [0.3756, 0.5890, 0.7941, 0.3761],
+            [0.8911, 0.6263, 0.1474, 0.4778],
+            [0.4070, 0.9507, 0.7599, 0.9507],
+            [0.3709, 0.5526, 0.6739, 0.8450]])
+    False
+    
+# Thanks         
