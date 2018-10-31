@@ -154,7 +154,7 @@ type **no**
 **Output**
     
     9.0.176       
-# Nvidia driver 
+#### Nvidia driver 
 open the **additional-drivers** app, search for it in the dash, or in **software and updates**
 select **NVIDIA binary driver**
 Run a command 
@@ -168,4 +168,4 @@ Run a command
 **Output**
     
     True         
-[Reference link](https://discuss.pytorch.org/t/pytorch-and-cuda-9-1/13126)  
+[Reference link](https://discuss.pytorch.org/t/pytorch-and-cuda-9-1/13126)    
