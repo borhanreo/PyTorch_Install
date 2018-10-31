@@ -75,9 +75,13 @@ type **no**
     pyTorch                * /home/borhan/anaconda3/envs/pyTorch      
     
 # Step 2.1 Install Pytorch
+**No CUDA**
+
+    $ conda install pytorch-cpu torchvision-cpu -c pytorch
+**With CUDA 9.0**    
 
     $ conda install pytorch torchvision -c pytorch
-[You can found your command from here](https://pytorch.org/get-started/locally/)    
+[You can found your command from here](https://pytorch.org/get-started/locally/)  
     
 **Take little time (depend on internet speed) for install many library. you can go for tea break**
  
