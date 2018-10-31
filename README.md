@@ -136,7 +136,7 @@ type **no**
     
 # Thanks         
 # Usefull command
-**List all env **
+**List all env**
 
     $ conda env list
 **Active env**
