@@ -159,6 +159,13 @@ open the **additional-drivers** app, search for it in the dash, or in **software
 select **NVIDIA binary driver**
 Run a command 
     
-    sudo apt install nvidia-cuda-toolkit
+    $ sudo apt install nvidia-cuda-toolkit
+    $ sudo reboot
+**Test Nvidia gpu CUDA**
     
-[Reference link](https://discuss.pytorch.org/t/pytorch-and-cuda-9-1/13126)   
+    import torch
+    print(torch.cuda.isavailable())
+**Output**
+    
+    True         
+[Reference link](https://discuss.pytorch.org/t/pytorch-and-cuda-9-1/13126)  
