@@ -1,4 +1,4 @@
-# Install pytorch on Ubuntu Anaconda
+# Install pytorch on Ubuntu with Anaconda environment 
  I used Ubuntu 18.04
 # Step 1.1 Need to install anaconda 
 [Download Anaconda for ubuntu](https://www.anaconda.com/download/)
