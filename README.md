@@ -135,3 +135,10 @@ type **no**
     False
     
 # Thanks         
+# Usefull command
+**List all env **
+
+    $ conda env list
+**Active env**
+    
+    $ source activate pyTorch    
