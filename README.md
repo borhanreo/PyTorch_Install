@@ -171,3 +171,8 @@ Run a command
     
     True         
 [Reference link](https://discuss.pytorch.org/t/pytorch-and-cuda-9-1/13126)    
+
+# Windows command
+
+ conda info --envs
+ conda activate pyTorch
