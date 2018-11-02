@@ -180,3 +180,8 @@ Run a command
 
  conda info --envs
  conda activate pyTorch
+ 
+ 
+ 
+ # Some usefull command
+   $ conda install --yes --file requirements.txt
