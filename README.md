@@ -147,7 +147,11 @@ type **no**
     $ conda env list
 **Active env**
     
-    $ source activate pyTorch    
+    $ source activate pyTorch
+    
+**Deactivate**
+ 
+    $ conda deactivate
 
 # This topic only for NVIDA GPU user only    
 #### if cuda is installed with your conda ??
