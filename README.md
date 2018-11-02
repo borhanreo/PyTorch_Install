@@ -42,6 +42,7 @@ type **no**
 #### Step 1.5 Activate Installation
     $ source ~/.bashrc
 #### Step 1.6 Test Installation
+**Some cases need to restart**
     $ conda list   
 **You will ses some output** 
 
